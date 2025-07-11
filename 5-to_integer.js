@@ -6,7 +6,7 @@ if (input === undefined) {
 } else {
     const myVar = parseInt(input);
     if (isNaN(myVar)) {
-        console.log(' Not a number');
+        console.log('Not a number');
     } else {
         console.log('My number: ' + myVar);
     }
